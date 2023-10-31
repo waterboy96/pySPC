@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="mvSPC",
-    version="1.0.2",
+    version="1.0.3",
     author="Henrik Hviid Hansen, Sebastian Olivier Nymann Topalian, Davide Cacciarelli",
     author_email="hehha@orsted.com, sebtop@kt.dtu.dk, dcac@dtu.dk",
     description="Plug and play statistical process control functions for Python",
