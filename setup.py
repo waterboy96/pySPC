@@ -1,7 +1,5 @@
 from setuptools import find_packages, setup
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
 
 setup(
     name="pyspc",
@@ -9,7 +7,7 @@ setup(
     author="Henrik Hviid Hansen, Sebastian Olivier Nymann Topalian, Davide Cacciarelli",
     author_email="hehha@orsted.com, sebtop@kt.dtu.dk, dcac@dtu.dk",
     description="Plug and play statistical process control functions for Python",
-    long_description=long_description,
+    long_description="Python package based on work from 3 PhD projects at the Technical University of Denmark covering multivariate statistical process control (MSPC), autoencoders for MSPC and determination of delays for dynamic principal component analysis",
     long_description_content_type="markdown",
     url="https://github.com/hviidhenrik/pySPC",
     packages=find_packages(exclude=["tests*"]),
