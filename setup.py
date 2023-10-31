@@ -11,9 +11,9 @@ setup(
     long_description_content_type="markdown",
     url="https://github.com/hviidhenrik/pySPC",
     packages=find_packages(exclude=["tests*"]),
-    classifiers=[
+    classifiers = [
         "Programming Language :: Python :: 3",
-        "License :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",
