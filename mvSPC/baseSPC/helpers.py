@@ -7,7 +7,7 @@ import sklearn.decomposition
 import sklearn.preprocessing
 from statsmodels.tsa.stattools import acf, pacf
 
-from definitions import (
+from mvSPC.baseSPC.definitions import (
     LCL_color,
     UCL_color,
     get_line_width,

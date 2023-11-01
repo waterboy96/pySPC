@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="mvSPC",
-    version="1.0.16",
+    version="1.0.17",
     author="Henrik Hviid Hansen, Sebastian Olivier Nymann Topalian, Davide Cacciarelli",
     author_email="hehha@orsted.com, sebtop@kt.dtu.dk, dcac@dtu.dk",
     description="Plug and play statistical process control functions for Python",
