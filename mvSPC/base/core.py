@@ -6,8 +6,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from scipy.stats import beta, chi2, f
 
-from base._src.constants import get_A_constant, get_B_constant, get_D_constant
-from base._src.helpers import (
+from constants import get_A_constant, get_B_constant, get_D_constant
+from helpers import (
     ControlChartPlotMixin,
     apply_standardize_and_PCA,
     get_df_with_sample_id,
