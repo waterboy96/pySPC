@@ -1,5 +1,5 @@
 import pandas as pd
-from autoencoders.oae.control_charts import ProcessMonitoring
+from mvSPC.autoencoders.oae.control_charts import ProcessMonitoring
 
 training_data = pd.read_csv("datasets/tep_training.csv")
 testing_data = pd.read_csv("datasets/tep_testing.csv")

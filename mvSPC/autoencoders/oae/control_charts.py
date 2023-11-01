@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 import torch
-from autoencoders.oae.model import AutoEncoder
-from autoencoders.oae.training import TrainingModel
-from autoencoders.oae.utils import estimate_upper_control_limit, plot_multivariate_control_charts, integrated_gradients
+from mvSPC.autoencoders.oae.model import AutoEncoder
+from mvSPC.autoencoders.oae.training import TrainingModel
+from mvSPC.autoencoders.oae.utils import estimate_upper_control_limit, plot_multivariate_control_charts, integrated_gradients
 
 
 class ProcessMonitoring:
